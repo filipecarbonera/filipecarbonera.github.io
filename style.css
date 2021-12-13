@@ -1,11 +1,57 @@
 @charset "UTF-8";
 
-h1 {
+body {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
     text-align: center;
+    height: 100%;
+    margin: 5;
+    background-color: gainsboro;
 }
 
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
+#titulo{
+    padding: 8px;
+}
+
+#container{
+    position: relative;
+    padding: 0px;
+    text-align: left;
+    margin: 5px;
+}
+
+#container-esquerdo{
+    width: 380px;
+    height: 500px;
+    float: left;
+    margin: 5px;
+}
+
+#container-centro{
+    width: 532px;
+    height: 550px;
+    float: left;
+    margin: 5px;
+}
+
+#container-direito{
+    width: 380px;
+    height: 500px;
+    float: right;
+    margin: 5px;
+}
+
+footer{
+    height: 620px;
+}
+
+h2{
+    background-color: gray;
+}
+
+h1{
+    margin: 5px;
+}
+
+.list{
+    line-height: 1.5;
 }
